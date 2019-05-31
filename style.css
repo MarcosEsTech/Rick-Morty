@@ -1,0 +1,28 @@
+header div{
+	text-align: center;
+	background-color: #000000;
+}
+
+
+.card{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.information > div, .identification{
+	display: flex;
+	justify-content: space-between;
+}
+
+.identification{
+	margin-bottom: 1em;
+}
+
+.name{
+	flex-basis: 50%;
+}
+
+.value{
+	flex-basis: 50%;
+	text-align: right;
+}
